@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1000px) {
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(152, 115, 76, 0.8);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: saddlebrown;
+  outline: 1px solid saddlebrown;
+}

@@ -1,0 +1,125 @@
+.o-nama {
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  font-size: xxx-large;
+  font-weight: lighter;
+  /* padding: 18px 10px; */
+  /* color: rgba(84,71,56,1); */
+  text-transform: uppercase;
+  line-height: 1.7;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 30px;
+  text-align: left;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+}
+.pictures {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  margin-top: 5rem;
+}
+
+.o-nama-tekst {
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  font-size: xxx-large;
+  font-weight: lighter;
+  line-height: 1.7;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 15px;
+  text-align: left;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.names {
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  font-size: xxx-large;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 1.7;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.box-col {
+  height: 30rem;
+  background: rgba(130, 81, 28, 0.8);
+}
+.box-text {
+  height: 30rem;
+  background: tan;
+  margin-right: -30rem;
+  margin-left: 20rem;
+  margin-top: 3rem;
+  border: 1px solid black;
+}
+.aboutContainer {
+  height: 200vh;
+}
+@media only screen and (max-width: 850px) {
+  .pictures {
+    display: grid;
+  }
+  .aboutContainer {
+    height: 250vh;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .box {
+    display: grid;
+  }
+  .box-text {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .box-col {
+    background: none;
+  }
+  .o-nama-tekst {
+    padding-top: 5rem;
+  }
+  .aboutContainer {
+    height: 250vh;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .o-nama-tekst {
+    padding-top: 2rem;
+  }
+  .aboutContainer {
+    height: 250vh;
+  }
+}

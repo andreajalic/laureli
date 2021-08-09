@@ -1,0 +1,51 @@
+.usluge {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 15rem;
+  font-size: xxx-large;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 2;
+  -webkit-letter-spacing: 0.2em;
+  text-align: center;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 40px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.vizualni-naslov {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  font-size: xxx-large;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 1.7;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+}
+
+.vizualni-tekst {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.row-usluge {
+  gap: 1rem;
+}

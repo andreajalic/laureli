@@ -1,0 +1,62 @@
+.vizualni-naslov {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  font-size: xxx-large;
+  font-weight: lighter;
+  text-transform: uppercase;
+  line-height: 1.7;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 30px;
+  text-align: left;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+}
+
+.edukacijeNaslov {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 15rem;
+  flex-direction: column;
+  margin-top: 1rem;
+  font-weight: lighter;
+  line-height: 1.7;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.2em;
+  font-size: 15px;
+  text-align: left;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.tekst {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  font-size: xxx-large;
+  font-weight: lighter;
+  line-height: 1.7;
+  -webkit-letter-spacing: 0.2em;
+  -moz-letter-spacing: 0.2em;
+  -ms-letter-spacing: 0.2em;
+  letter-spacing: 0.1em;
+  font-size: 15px;
+  text-align: left;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+}
